@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Unbounded', cursive;
+}
+ .about-me h1 {
+  color: rgb(255, 255, 255);
+  border-bottom: 2px dotted white;
+  display: inline-block;
+}
+.container {
+  background: url(./img/banner-bg.png);
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  font-size: 20px;
+
+}
+.link ul {
+  display: flex;
+
+}
+.link ul li {
+  margin: 0 10px;
+  list-style: none;
+ 
+
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.link ul a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 5px 0;
+  
+}
+.link ul a:hover,
+.link ul a.active
+.link ul a:focus{
+  color: red;
+  transition: 1s ease all;
+}
+@media screen and (max-width:614px) {
+  .container {
+  flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  
+ 
+ }
+ .link ul {
+  flex-direction: column;
+ 
+ }
+
+}
+
+#about {
+  background-image: url(./img/banner-bg.png);
+  width: 100%;
+  height: 100vh;
+
+}
+#about {
+  display: flex;
+  justify-content: center;
+
+}
+.img img {
+  width: 420px;
+
+}
+.about {
+  margin: 100px;
+  display: flex;
+ 
+}
+.about-me {
+  max-width: 600px;
+  margin-top: 100px;
+}
+.about-me h1 {
+  font-size: 50px;
+}
+.about-me p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+@media screen and (max-width:900px) {
+  .about-me h1 {
+    font-size: 30px;
+  }
+ #about .about    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 400px;
+  
+   
+  }
+  .img img {
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  .contain  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .contain .hello {
+    margin: 0 auto;
+  }
+  #project h1,h2 {
+    font-size: 30px;
+  }
+
+}
+html {
+  scroll-behavior: smooth;
+}
+.contact h1 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  margin: 20px 0;
+  
+
+}
+
+.inform {
+  display: flex;
+  color: rgb(255, 255, 255);
+  padding: 10px 0;
+  
+ 
+
+}
+.inform i {
+  margin-top: 2px;
+  font-size: 20px;
+  margin-left: 8px;
+}
+.inform h2 {
+  margin: 0 10px;
+  font-size: 20px;
+}
+.information {
+  background-color: rgb(0, 162, 255);
+  font-size: 20px;
+  width: 390px;
+  
+  border-radius: 20px;
+
+}
+.inform {
+  text-align: center;
+}
+.information img {
+  width: 390px;
+  border-radius: 20px 20px 0px 0px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+
+  margin: 80px;
+}
+.inform:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 1s ease;
+}
+.inform a {
+  color: white;
+}
+.social .social-icon{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 200px;
+  left: 0;
+}
+.social .social-icon {
+  background: url(./img//banner-bg.png);
+  border-radius: 20px;
+  padding: 10px 5px;
+  margin-right: 200px;
+ 
+} 
+.social .social-icon  {
+  font-size: 40px;
+
+
+}
+.social .social-icon i {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+}
+.social .social-icon i:hover {
+  transform: scale(1.1);
+}
+#contact .hello {
+ 
+  font-size: 30px;
+  text-shadow: 0 0 10px rgb(0, 162, 255);
+  
+}
+.contain  {
+  display: flex;
+  align-items: center;
+  
+}
+
+.fa-angle-down {
+ 
+}
+.social-icon a img:hover {
+  transform: scale(1.1);
+}
+#footer {
+  background: url(./img/banner-bg.png);
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+}
+#project {
+  
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+#project a {
+  text-align: center;
+  color: red;
+}
